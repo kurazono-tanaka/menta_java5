@@ -50,8 +50,6 @@
       button.textContent = choices.text;
       if(choices.c_w === 'correct') {
         button.id = 'correct';
-      }else if(choices.c_w === 'wrong') {
-        button.id = 'wrong';
       }
       button.addEventListener('click', () => {
         if(button.id === 'correct') {
